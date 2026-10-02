@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lost Pines Fossils | Genuine fossils, bones and rare specimens</title>
+<meta name="description" content="Lost Pines Fossils sells genuine fish and shrimp fossils, dinosaur bones and rare specimens. Message us on Facebook to order.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--shale:#15110d;--clay:#241b14;--sand:#d9b98a;--amber:#e8963a;--bone:#f3ead8;--mute:#b3a58f;--r:22px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(1200px 700px at 70% -10%,#3a2a1b 0%,var(--shale) 60%) fixed;color:var(--bone);font-family:'Outfit',system-ui,sans-serif;font-weight:300;line-height:1.65;overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0}
+main,header,footer{position:relative;z-index:1}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+h1,h2,h3{font-family:'Young Serif',Georgia,serif;font-weight:400;line-height:1.1}
+nav{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;background:linear-gradient(#15110dcc,#15110d00);backdrop-filter:blur(6px)}
+nav b{font-family:'Young Serif',serif;font-weight:400;font-size:1.15rem}
+nav div a{margin-left:22px;text-decoration:none;color:var(--sand);font-size:.95rem}
+nav div a:hover{color:var(--bone)}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:110px 5vw 60px;max-width:1200px;margin:auto;pointer-events:none}
+.hero *{pointer-events:auto}
+.hero h1{font-size:clamp(2.8rem,10vw,7.5rem);letter-spacing:-.02em}
+.hero h1 .w{display:block;perspective:600px}
+.hero h1 span.l{display:inline-block;opacity:0;transform:translateY(80px) rotateX(-90deg);transform-origin:50% 100%;animation:drop .9s cubic-bezier(.2,.8,.2,1) forwards;background:linear-gradient(180deg,var(--bone),var(--sand) 60%,var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes drop{to{opacity:1;transform:none}}
+.type{margin-top:22px;font-size:clamp(1.1rem,2.6vw,1.6rem);color:var(--sand);min-height:2em}
+.type i{display:inline-block;width:2px;height:1.1em;background:var(--amber);margin-left:3px;vertical-align:-.2em;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.lead{max-width:520px;margin-top:10px;color:var(--mute)}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.btn{display:inline-block;padding:14px 28px;border-radius:99px;text-decoration:none;font-weight:600;transition:transform .25s,box-shadow .25s}
+.btn.p{background:linear-gradient(135deg,var(--amber),#c86f1c);color:#1b1208;box-shadow:0 10px 30px #e8963a40}
+.btn.g{border:1px solid #d9b98a66;color:var(--bone)}
+.btn:hover{transform:translateY(-3px) scale(1.03)}
+.hint{margin-top:40px;font-size:.85rem;color:var(--mute)}
+section{padding:90px 5vw;max-width:1200px;margin:auto}
+h2{font-size:clamp(2rem,5vw,3.4rem);margin-bottom:14px}
+.sub{color:var(--mute);max-width:560px;margin-bottom:46px}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.glass{background:linear-gradient(145deg,#ffffff14,#ffffff05);border:1px solid #ffffff1f;border-radius:var(--r);backdrop-filter:blur(14px);padding:28px}
+.facts{list-style:none;display:grid;gap:14px}
+.facts li{padding-left:34px;position:relative}
+.facts li::before{content:"🦴";position:absolute;left:0;top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px;perspective:1000px}
+.card{--a:0deg;position:relative;border-radius:var(--r);padding:2px;transform-style:preserve-3d;transition:transform .15s ease-out;background:conic-gradient(from var(--a),#e8963a,#2a1d12 25%,#d9b98a 50%,#2a1d12 75%,#e8963a);animation:spin 6s linear infinite}
+@property --a{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes spin{to{--a:360deg}}
+.card .in{background:var(--clay);border-radius:calc(var(--r) - 2px);padding:28px 24px;height:100%;transform:translateZ(30px)}
+.card .ic{font-size:3.2rem;display:block;transform:translateZ(50px);filter:drop-shadow(0 12px 14px #0008);animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateZ(50px) translateY(-8px)}}
+.card h3{font-size:1.4rem;margin:12px 0 6px}
+.card p{color:var(--mute);font-size:.95rem}
+.price{display:inline-block;margin-top:16px;padding:6px 16px;border-radius:99px;background:#e8963a22;color:var(--amber);font-weight:600}
+.price.nfs{background:#ffffff14;color:var(--sand)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.steps h3{font-size:1.25rem;margin-bottom:8px}
+.steps p{color:var(--mute);font-size:.95rem}
+.cta{text-align:center}
+.cta .glass{padding:60px 24px}
+.cta p{color:var(--mute);margin:0 auto 28px;max-width:480px}
+footer{padding:40px 5vw 50px;text-align:center;color:var(--mute);font-size:.85rem}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}
+.rv.on{opacity:1;transform:none}
+@media(max-width:760px){.about{grid-template-columns:1fr}nav div a:not(:last-child){display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero h1 span.l,.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<nav>
+  <b>Lost Pines Fossils</b>
+  <div><a href="#collection">Collection</a><a href="#how">How to buy</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <h1 aria-label="Lost Pines Fossils"><span class="w" data-t="Lost Pines"></span><span class="w" data-t="Fossils"></span></h1>
+  <div class="type" aria-live="off"><span id="tw"></span><i></i></div>
+  <p class="lead">Genuine fossils and rare specimens, from small fish and shrimp to dinosaur bones and a Hadrosaur nest.</p>
+  <div class="btns">
+    <a class="btn p" href="#collection">See the collection</a>
+    <a class="btn g" href="https://www.facebook.com/share/1Q7b8DMVaz/" target="_blank" rel="noopener">Message us on Facebook</a>
+  </div>
+  <p class="hint">Tip: pop the bubbles by tapping them.</p>
+</header>
+
+<main>
+<section id="about">
+  <div class="about rv">
+    <div>
+      <h2>Real fossils, shared with collectors</h2>
+      <p class="sub" style="margin-bottom:0">Lost Pines Fossils is a small fossil seller on Facebook. We post new specimens as they come in, and some pieces, like our Tarbosaurus tooth, stay in the private collection.</p>
+    </div>
+    <div class="glass">
+      <ul class="facts">
+        <li>Fish, shrimp, dinosaur bone and egg specimens</li>
+        <li>Photos and sizes shown on every post</li>
+        <li>Shipping within the US, local meetup possible</li>
+        <li>New stock appears monthly on our page</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="collection">
+  <h2 class="rv">From our recent posts</h2>
+  <p class="sub rv">Prices are in US dollars and plus shipping. Stock changes quickly, so message us to confirm what is still available.</p>
+  <div class="grid">
+    <article class="card rv"><div class="in"><span class="ic">🐟</span><h3>Fossil fish</h3><p>Small fish specimens in stone, about 2 to 4 inches.</p><span class="price">$30 each</span></div></article>
+    <article class="card rv"><div class="in"><span class="ic">🦐</span><h3>Fossil shrimp</h3><p>Detailed shrimp fossils, each one a unique slab.</p><span class="price">$25 each</span></div></article>
+    <article class="card rv"><div class="in"><span class="ic">🦴</span><h3>Triceratops vertebra</h3><p>A single vertebra, listed as our last specimen with more expected next month.</p><span class="price">$100</span></div></article>
+    <article class="card rv"><div class="in"><span class="ic">🥚</span><h3>Hadrosaur nest</h3><p>A genuine egg nest from China, weighing 22 pounds.</p><span class="price">$2,300</span></div></article>
+    <article class="card rv"><div class="in"><span class="ic">🦖</span><h3>Tarbosaurus bataar tooth</h3><p>A 3.51 inch tooth from a Tyrannosaur relative. Mongolian specimens are hard to obtain. Display only.</p><span class="price nfs">Not for sale</span></div></article>
+  </div>
+</section>
+
+<section id="how">
+  <h2 class="rv">How to buy</h2>
+  <p class="sub rv">No cart and no checkout. Everything happens in a message.</p>
+  <div class="steps">
+    <div class="glass rv"><h3>1. Pick a piece</h3><p>Browse our Facebook posts or the list above.</p></div>
+    <div class="glass rv"><h3>2. Send a message</h3><p>Tell us which specimen you want and where you are.</p></div>
+    <div class="glass rv"><h3>3. Get it delivered</h3><p>We ship within the US. Local buyers can meet at an agreed location.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <div class="glass rv">
+    <h2>Ask about a fossil</h2>
+    <p>The fastest way to reach us is through our Facebook page.</p>
+    <a class="btn p" href="https://www.facebook.com/share/1Q7b8DMVaz/" target="_blank" rel="noopener">Open Lost Pines Fossils on Facebook</a>
+  </div>
+</section>
+</main>
+
+<footer>&copy; <span id="y"></span> Lost Pines Fossils. Prices and availability are as last posted on Facebook and may change.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  document.getElementById('y').textContent=new Date().getFullYear();
+
+  // Animated title: split into letters
+  document.querySelectorAll('.w').forEach(function(w,wi){
+    var t=w.dataset.t,html='';
+    for(var i=0;i<t.length;i++){
+      html+=t[i]===' '?'&nbsp;':'<span class="l" style="animation-delay:'+((wi*0.45)+i*0.06)+'s">'+t[i]+'</span>';
+    }
+    w.innerHTML=html;
+  });
+
+  // Typewriter
+  var words=['Fossil fish','Fossil shrimp','Dinosaur bones','Rare specimens'],wi=0,ci=0,del=false,tw=document.getElementById('tw');
+  (function tick(){
+    var cur=words[wi];
+    tw.textContent=cur.slice(0,ci);
+    if(!del&&ci===cur.length){del=true;return setTimeout(tick,1400)}
+    if(del&&ci===0){del=false;wi=(wi+1)%words.length}
+    ci+=del?-1:1;
+    setTimeout(tick,del?40:85);
+  })();
+
+  // Scroll reveal
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.15});
+  document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=(i%4)*0.08+'s';io.observe(el)});
+
+  // 3D tilt on cards
+  document.querySelectorAll('.card').forEach(function(c){
+    c.addEventListener('mousemove',function(e){
+      var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      c.style.transform='rotateY('+(x*18)+'deg) rotateX('+(-y*18)+'deg) scale(1.03)';
+    });
+    c.addEventListener('mouseleave',function(){c.style.transform=''});
+  });
+
+  // 3D bubbles
+  if(typeof THREE==='undefined')return;
+  var cv=document.getElementById('bg'),
+      renderer=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  var scene=new THREE.Scene(),cam=new THREE.PerspectiveCamera(55,1,.1,100);
+  cam.position.z=14;
+  function size(){renderer.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}
+  size();addEventListener('resize',size);
+
+  var vs='varying vec3 vN;varying vec3 vV;void main(){vN=normalize(normalMatrix*normal);vec4 mv=modelViewMatrix*vec4(position,1.);vV=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}';
+  var fs='uniform vec3 c;uniform float t;uniform float o;varying vec3 vN;varying vec3 vV;void main(){float f=pow(1.-max(dot(vN,vV),0.),2.4);vec3 ir=.5+.5*cos(6.2831*(f+vec3(0.,.33,.67)+t*.05));vec3 col=mix(c,ir,.55*f);gl_FragColor=vec4(col,(f*.9+.05)*o);}';
+  var palette=[0xe8963a,0xd9b98a,0x6fc3b5,0xf3ead8,0xc86f1c],geo=new THREE.SphereGeometry(1,32,32),bubbles=[],N=innerWidth<700?22:42;
+
+  function spawn(b,initial){
+    var s=.4+Math.random()*1.5;
+    b.mesh.scale.setScalar(s);b.s=s;b.pop=0;
+    b.mesh.position.set((Math.random()-.5)*28,initial?(Math.random()-.5)*20:-12,(Math.random()-.5)*14-2);
+    b.v=.4+Math.random()*.8;b.ph=Math.random()*6.28;
+    b.mesh.material.uniforms.o.value=1;
+  }
+  for(var i=0;i<N;i++){
+    var m=new THREE.Mesh(geo,new THREE.ShaderMaterial({
+      uniforms:{c:{value:new THREE.Color(palette[i%palette.length])},t:{value:Math.random()*10},o:{value:1}},
+      vertexShader:vs,fragmentShader:fs,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));
+    var b={mesh:m};spawn(b,true);bubbles.push(b);scene.add(m);
+  }
+
+  var mx=0,my=0;
+  addEventListener('pointermove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+
+  // Pop on tap
+  var ray=new THREE.Raycaster(),v2=new THREE.Vector2();
+  addEventListener('pointerdown',function(e){
+    v2.set(e.clientX/innerWidth*2-1,-(e.clientY/innerHeight)*2+1);
+    ray.setFromCamera(v2,cam);
+    var hit=ray.intersectObjects(bubbles.map(function(b){return b.mesh}));
+    if(hit.length){bubbles.forEach(function(b){if(b.mesh===hit[0].object&&!b.pop)b.pop=.001})}
+  });
+
+  var clock=new THREE.Clock(),reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  (function loop(){
+    requestAnimationFrame(loop);
+    var dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
+    bubbles.forEach(function(b){
+      var p=b.mesh.position,u=b.mesh.material.uniforms;
+      u.t.value=t;
+      if(!reduce){p.y+=b.v*dt;p.x+=Math.sin(t*.6+b.ph)*dt*.5}
+      if(b.pop){
+        b.pop+=dt*4;b.mesh.scale.setScalar(b.s*(1+b.pop*.8));u.o.value=Math.max(0,1-b.pop);
+        if(b.pop>1)spawn(b,false);
+      }
+      if(p.y>13)spawn(b,false);
+    });
+    cam.position.x+=(mx*3-cam.position.x)*.04;
+    cam.position.y+=(-my*2-cam.position.y)*.04;
+    cam.lookAt(0,0,0);
+    scene.rotation.y=Math.sin(t*.1)*.08;
+    renderer.render(scene,cam);
+  })();
+})();
+</script>
+</body>
+</html>
